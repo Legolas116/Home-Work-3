@@ -59,27 +59,18 @@ h1{
 	font-size: 18px;
 }
 
-.leftborder{
-	font-family: Arial;
-	padding-right: 300px;
-	font-size: 22px;
+.text{
 	display: inline-block;
-    margin: 35px;
-	width: 30%;
-	clear:both;
-	color:#797171;
+	text-align: left;
+	margin: 0px 5px 0px 0px;
+	width:calc(40% - 20px);
+	font-size: 20px;
+	font-weight: 10px;
+	padding: 40px;	
+	color: #595555;
 }
 
-.rightborder{
-	font-family: Arial;
-	font-size: 22px;
-	display: inline-block;
-	margin: 35px;
-	width: 30%;
-	clear:both;
-	color:#797171;
-		
-}
+.text:last-child{float: right;}
 
 header{
 font-size: 15px;
@@ -89,6 +80,6 @@ color:#968C8C;
 h5{
 	font-size: 26px;
 }
-p. dline {
+p.dline {
 	 line-height: 1;
 }
